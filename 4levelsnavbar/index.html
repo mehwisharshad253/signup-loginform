@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Level Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div><h1>Navbar</h1></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Link</a></li>
+        <li id="dropdown">
+          <a href="/"
+            >Dropdown <span><i class="fa-solid fa-caret-down"></i></span
+          ></a>
+          <div class="dropdown_menu">
+            <ul>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li id="horizental"><hr /></li>
+              <li><a href="#">Something else here</a></li>
+              <li id="dropdown2">
+                <a href="/"
+                  >Dropdown <span><i class="fa-solid fa-caret-down"></i></span
+                ></a>
+                <div class="dropdown_menu2">
+                  <ul>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li id="horizental"><hr /></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li id="dropdown3">
+                      <a href="/"
+                        >Dropdown
+                        <span><i class="fa-solid fa-caret-down"></i></span
+                      ></a>
+                      <div class="dropdown_menu3">
+                        <ul>
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li id="horizental"><hr /></li>
+                          <li><a href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="/">Disabled</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
