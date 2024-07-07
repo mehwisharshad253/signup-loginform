@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <form action="/">
+        <div id="userdetail">
+          <h1>Signup</h1>
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Create Password"
+          />
+          <input
+            type="password"
+            name="conpassword"
+            id="conpassword"
+            placeholder="Confirm Password"
+          />
+          <button>Signup</button>
+        </div>
+        <div>Already have an account? <span class="login">Login</span></div>
+        <div id="horizental">
+          <div></div>
+          <div>or</div>
+          <div></div>
+        </div>
+        <div id="socialaccounts">
+          <button class="btn_face">
+            <span><i class="fa-brands fa-facebook"></i></span
+            ><span class="text">Login with Facebook</span>
+          </button>
+          <button class="btn_google">
+            <span><i class="fa-brands fa-google"></i></span
+            ><span class="text">Login with Google</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
